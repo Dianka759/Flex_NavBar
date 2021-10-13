@@ -2,16 +2,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
-ul {
-    list-style-type: none;   
-}
-
-li a {
-    color: rgb(192, 192, 192);
-    display: inline-block;
-    text-align: center;
-    padding: 5px 10px;
+a {
+    color: rgb(129, 127, 127);
+    text-decoration: none;
 }
 
 .nav {
@@ -27,13 +20,16 @@ li a {
 
 .nav-title {
     font-size: 25px;
-    display: flex;
 }
 
 .nav-links {
     font-size: 13px;
     display: flex;
+    align-items: center;
+    gap:20px;
+    list-style: none;
 }
+
 
 .active {
     color: white;
